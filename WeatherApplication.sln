@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApplication.MVC", "WeatherApplication.MVC\WeatherApplication.MVC.csproj", "{C353F245-49C0-433F-B57E-B151AB72C160}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApplication.Integration", "WeatherApplication.Integration\WeatherApplication.Integration.csproj", "{E66CA6A1-A96C-4E2F-B0A2-D6117456DAC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApplication.Logic", "WeatherApplication.Logic\WeatherApplication.Logic.csproj", "{AD83D5E7-4577-4B0F-8B5E-5B291F5D8870}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApplication.Integration.WeatherApi", "WeatherApplication.Integration.WeatherApi\WeatherApplication.Integration.WeatherApi.csproj", "{E093763C-6BF7-4577-BE24-0BAF293AF050}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +18,17 @@ Global
 		{C353F245-49C0-433F-B57E-B151AB72C160}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C353F245-49C0-433F-B57E-B151AB72C160}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C353F245-49C0-433F-B57E-B151AB72C160}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E66CA6A1-A96C-4E2F-B0A2-D6117456DAC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E66CA6A1-A96C-4E2F-B0A2-D6117456DAC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E66CA6A1-A96C-4E2F-B0A2-D6117456DAC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E66CA6A1-A96C-4E2F-B0A2-D6117456DAC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD83D5E7-4577-4B0F-8B5E-5B291F5D8870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD83D5E7-4577-4B0F-8B5E-5B291F5D8870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD83D5E7-4577-4B0F-8B5E-5B291F5D8870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD83D5E7-4577-4B0F-8B5E-5B291F5D8870}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E093763C-6BF7-4577-BE24-0BAF293AF050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E093763C-6BF7-4577-BE24-0BAF293AF050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E093763C-6BF7-4577-BE24-0BAF293AF050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E093763C-6BF7-4577-BE24-0BAF293AF050}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
